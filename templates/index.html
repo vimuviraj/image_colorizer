@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (head content remains unchanged) ... -->
+</head>
+<body>
+    <h1>DeOldify Colorization</h1>
+    <form action="/colorize" method="post" enctype="multipart/form-data">
+        <label for="source_image">Upload Image:</label>
+        <input type="file" name="source_image" accept="image/*" required>
+        <br>
+        <label for="render_factor">Render Factor:</label>
+        <input type="number" name="render_factor" min="7" max="40" value="12" required>
+        <br>
+        <label for="watermarked">Watermarked:</label>
+        <input type="checkbox" name="watermarked" checked>
+        <br>
+        <button type="submit">Colorize</button>
+    </form>
+</body>
+</html>
