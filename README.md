@@ -30,6 +30,7 @@ This is a web application built with Flask that utilizes the DeOldify library to
 2.Download the model file:
 
 mkdir models
+
 wget https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth -O models/ColorizeArtistic_gen.pth
 
 3.Install dependencies using pip:
