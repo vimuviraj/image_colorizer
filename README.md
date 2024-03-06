@@ -38,6 +38,7 @@ wget https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth -O models/Coloriz
 pip install -r requirements.txt
 
 pip3 install imageio
+
 pip3 install deoldify "Pillow<10.1.0"
 
 4.Usage
