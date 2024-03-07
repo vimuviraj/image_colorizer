@@ -25,7 +25,6 @@ This is a web application built with Flask that utilizes the DeOldify library to
 
   
    git clone https://github.com/jantic/DeOldify.git DeOldify
-   cd DeOldify
 
 2.Download the model file:
 
